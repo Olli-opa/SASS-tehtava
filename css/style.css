@@ -1,0 +1,149 @@
+.header-spacer {
+  height: 32px;
+}
+
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background: linear-gradient(180deg, #3498db, rgb(86.6543933054, 169.5832635983, 225.1456066946));
+  color: #fff;
+}
+.site-header .logo {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+.site-header .logo span {
+  color: #2ecc71;
+}
+.site-header .main-nav .nav-link {
+  color: inherit;
+  margin-left: 8px;
+  text-decoration: none;
+}
+.site-header .main-nav .nav-link.is-active {
+  font-weight: 700;
+  border-bottom: 2px solid rgb(116.9769874477, 184.9686192469, 230.5230125523);
+}
+.site-header .btn {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.site-header .btn:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+.site-header .btn.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.site-header .btn.btn-primary:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding: 32px 0;
+  text-align: center;
+  background: linear-gradient(180deg, rgb(181.9539748954, 217.9372384937, 242.0460251046), #fff);
+}
+.hero h2 {
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+.hero p {
+  color: rgb(17.7740585774, 67.1464435146, 100.2259414226);
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+}
+
+.container.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
+  align-items: start;
+}
+.container.grid .card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.container.grid .card h3 {
+  margin-top: 0;
+}
+.container.grid .card p {
+  line-height: 1.5;
+}
+.container.grid .card .link {
+  color: #3498db;
+  text-decoration: none;
+}
+.container.grid .sidebar {
+  background: rgb(209.304, 244.696, 224.312);
+  padding: 16px;
+  border-radius: 4px;
+}
+.container.grid .sidebar h4 {
+  margin-top: 0;
+}
+.container.grid .sidebar ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+@media (max-width: 900px) {
+  .container.grid {
+    grid-template-columns: 1fr;
+  }
+  .container.grid .sidebar {
+    order: 2;
+  }
+}
+
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding: 16px 0;
+  text-align: center;
+  color: rgb(25.4560669456, 96.1673640167, 143.5439330544);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  background: #f9f9f9;
+}
+
+/*# sourceMappingURL=style.css.map */
